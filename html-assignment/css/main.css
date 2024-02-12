@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+}
+
+header,footer {
+    background-color: beige;
+}
+
+.site-title {
+    color: blue;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px;
+}
+
+li{
+    list-style-type: square;
+}
+li:nth-child(odd){
+    background-color: brown;
+}
+a{
+text-decoration: none; background: padding-box; border-style: outset;border-color: aquamarine; 
+}
+a:hover{
+    background-color:yellow; 
+}
