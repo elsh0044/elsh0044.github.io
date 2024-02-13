@@ -20,7 +20,7 @@ li:nth-child(odd){
     background-color: brown;
 }
 a{
-text-decoration: none; background: padding-box; border-style: outset;border-color: aquamarine; 
+text-decoration: none; background: scroll; border-style: outset;border-color: black; 
 }
 a:hover{
     background-color:yellow; 
