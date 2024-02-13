@@ -19,9 +19,9 @@ ul{
 li:nth-child(odd){
     background-color: brown;
 }
-a{
+ nav a{
 text-decoration: none; background: scroll; border-style: outset;border-color: black; 
 }
-a:hover{
+nav a:hover{
     background-color:yellow; 
 }
