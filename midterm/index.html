@@ -6,16 +6,17 @@
     <title>Elsh0044 midterm</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-    <div class="bodysize">
-         <!--Header - Use the image tag to add the image and position the site title on top of it-->
-    <header>
-
+    <body>
+        <!--this class is to traget everything in the body -->
+        <div class="bodysize">
+         
+        <header>
+<!--Site title have to be overlayed over the picture dont forget to give it a class to be able to target it in css-->
         <div class="image-container">
-        <img src="images/lone-starfish-wide.jpg" alt="lone starfish wide">
+           <img src="images/lone-starfish-wide.jpg" alt="lone starfish wide">
         <div class="overlay-text">lone starfish</div>
-         <!---->
-         </header>
+         
+        </header>
          <!--Navigation icluding Home, Story and Contact. Dont forget to give ID to be able to link them later-->
          
          <nav>
@@ -23,7 +24,7 @@
             <a href="#story">STORY</a>
             <a href="#contact">CONTACT</a>
          </nav>
-         <h1>Life of a starfish</h1>
+             <h1>Life of a starfish</h1>
          <!--Article - Image should have the text wrapping around it-->
         <article>
             <img src="images/lone-starfish.jpg" class="wrapper" alt=" lone strafish">
@@ -39,22 +40,21 @@
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ul>
         <h2 id="contact">Contact to learn more</h2>
-        
+     <!--this form should have a type of text-->   
      <form>
         <label for="name">Your Name: </label>
      <br>
-     <input type="text" id="Name" name="name"></br>
+     <input class="inputbox" type="text"></br>
      <label for="email">Your Email</label>
      <br>
-     <input type="text" id="Email" name="Email"></br>
-     <label for="your message">Your Message</label>
-     <br>
-     <textarea name="your message"></textarea>
+     <input class="inputbox" type="text"></br>
+     <br><label for="your message">Your Message</label></br>
+     <input class="inputboxlarge" type="text">
     
     
     
-
-    <h3>Would you like to visit the strafish</h3>
+      <!--this form should have a type of radio and button-->
+        <h3>Would you like to visit the strafish</h3>
     
         <input type="radio" id="yes">
         <label for="yes">Yes</label>
@@ -62,7 +62,6 @@
         <label for="no">No</label>
         <input type="radio" id="maybe">
         <label for="maybe">Maybe</label><br>
-           
         <button type="button">SEND</button>
         
     </form>
@@ -79,7 +78,7 @@
     <footer> &copy; Lone starfish</footer>
 
         
-        </div>
+        
 
     </div>
    

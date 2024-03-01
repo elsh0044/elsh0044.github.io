@@ -1,15 +1,18 @@
-body{
-    background-color: rgb(23, 99, 114);
-}
 
+/*pick a font family to traget the whole body content*/
+body{
+    background-color: #AAD4CF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/*target the body max width according to the width of the wide picture*/
 .bodysize{
-    background-color: aquamarine;
+    background-color: #D4E9E7;
     max-width: 1024px;
     margin: auto;
 }
 .image-container{
     position: relative; 
-    text-align: center;
     color: white;
 
 }
@@ -19,20 +22,15 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 200px;
-    font-family: sans-serif;
+    height: 10px;
     font-size: 50px;
     padding: 10px;
+    }
     
-    
-    
-}
-    
-   
-
-nav{
+   nav{
     margin-left: 130px;
 }
+/* remove lines under nav and change color to black and add borders to the right side*/
 nav a {
     text-align: center;
     display: inline-block;
@@ -40,13 +38,13 @@ nav a {
     border-right: 1px solid;
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
     font-size: 20px; ;
 }
+/*target the last child in the nav to remove the right border*/
 nav a:last-child{
     border-right: none;
 }
-
+/*traget the wrapper to float on the left side*/
 .wrapper{
     float: left;
     width:150px;
@@ -54,42 +52,53 @@ nav a:last-child{
     margin-right:15px ;
     margin-left: 10px;
 }
+/*dont forget to add the clear to the first thing after the float*/
 p{
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 14px;
     clear: none;
     margin-left: 15px;
 }
-
+/*add a border to the form and a color to it*/
 form{
-    border: 2px solid black;
-    margin: 5px;
+    border: 1px solid black;
+    width: 100%;
+    padding: 9px 17px;
+    box-sizing: border-box;
+   
+}
+label{
+    font-size: 14px;
+}
+/* target all h1,,h2 and h3 to have the same margin to be aligned*/
+h1,h2,h3 {
+
+    margin-left: 10px;
     
 }
-h1,h2,h3 {
-    font-family: sans-serif;
-    margin-left: 10px;
-}
+
 
 
 ul {
-    font-family: sans-serif;
-    font-size: 18px;
-
-}
-textarea{
-    margin-left: 10px;
-    width: 95%;
-    height: 200px;
     
+    font-size: 14px;
 }
+
+
 button{
-    margin-left: 3px;
-}
-label{
     margin-left: 5px;
-}
-/*footer needs to be on the right bottom of the page with  text align (right)*/
+    }
+
+
+/*footer needs to be on the right bottom of the page with text align (right)*/
 footer{
     text-align:right;
+}
+
+.inputbox{
+    width: 980px;
+    height: fit-content;
+}
+.inputboxlarge{
+    width: 980px;
+    height: 70px;
 }
