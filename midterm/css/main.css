@@ -22,9 +22,10 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 10px;
+    height: 350px;
     font-size: 50px;
     padding: 10px;
+    color: white;
     }
     
    nav{
@@ -69,7 +70,7 @@ form{
 label{
     font-size: 14px;
 }
-/* target all h1,,h2 and h3 to have the same margin to be aligned*/
+/* target all h1, h2 and h3 to have the same margin to be aligned*/
 h1,h2,h3 {
 
     margin-left: 10px;
@@ -83,7 +84,7 @@ ul {
     font-size: 14px;
 }
 
-
+/*move the send button to the right*/
 button{
     margin-left: 5px;
     }
@@ -98,6 +99,7 @@ footer{
     width: 980px;
     height: fit-content;
 }
+/* make the message input box slightly larger on the height than the other 2 */
 .inputboxlarge{
     width: 980px;
     height: 70px;
