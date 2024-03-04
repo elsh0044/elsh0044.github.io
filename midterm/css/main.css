@@ -11,36 +11,47 @@ body{
     max-width: 1024px;
     margin: auto;
 }
-.image-container{
-    position: relative; 
-    color: white;
 
+header img{
+    position: relative;
+    height: 341px;
+    width: 100%;
+
+
+}
+header{
+    height: 341px;
 }
 /*overlay the the title on top of the picture*/
 .overlay-text{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    height: 350px;
+    transform: translate(-12%, -450%);
     font-size: 50px;
-    padding: 10px;
     color: white;
+
     }
     
-   nav{
-    margin-left: 130px;
-}
+  
+
 /* remove lines under nav and change color to black and add borders to the right side*/
-nav a {
+nav {
     text-align: center;
     display: inline-block;
-    width: 250px;
+    width: 100%;
+  
+}
+nav a{
+    text-align: center;
+    display: inline-block;
+    width: 30.3%;
     border-right: 1px solid;
     text-decoration: none;
     color: black;
     font-size: 20px; ;
 }
+
 /*target the last child in the nav to remove the right border*/
 nav a:last-child{
     border-right: none;
@@ -96,11 +107,11 @@ footer{
 }
 
 .inputbox{
-    width: 980px;
+    width: 100%;
     height: fit-content;
 }
 /* make the message input box slightly larger on the height than the other 2 */
 .inputboxlarge{
-    width: 980px;
+    width: 100%;
     height: 70px;
 }
