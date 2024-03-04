@@ -16,7 +16,7 @@ body{
     color: white;
 
 }
-
+/*overlay the the title on top of the picture*/
 .overlay-text{
     position: absolute;
     top: 50%;
@@ -65,16 +65,16 @@ form{
     width: 100%;
     padding: 9px 17px;
     box-sizing: border-box;
-   
 }
+
 label{
     font-size: 14px;
 }
+
 /* target all h1, h2 and h3 to have the same margin to be aligned*/
 h1,h2,h3 {
 
     margin-left: 10px;
-    
 }
 
 
