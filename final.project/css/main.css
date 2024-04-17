@@ -43,12 +43,14 @@ table {
 	border-spacing: 0;
 }
 /* Mobile-first approach in the styling */
-/* Reset some default styles */
+
  h1, h2 {
     font-size: 35px;
     margin: 0;
     padding: 0;
     text-decoration: none;
+    position: relative;
+    text-align: center;
 }
 
 /* Apply a font throughout the page */
@@ -86,6 +88,16 @@ header {
     padding: 10px 20px;
    
 }
+@media screen and (min-width: 760px){
+    .topnav{
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+}
+    
+
 
 
 /* Search bar styles */
@@ -123,11 +135,14 @@ section {
     padding: 10px 20px;
     margin-top: 20px;
     color: white;
+    position: relative;
+    text-align: left;
     
 }
 
 .button.orange {
     background-color: #f90;
+    
 }
 
 .button.black {
@@ -160,5 +175,68 @@ h1, h2 {
 }
 
 
+/* Video Production section styles */
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Our Vision section styles */
+.darkblue {
+    background-color: #00008b; 
+}
+
+/* Our Team section styles */
+#team h2, #team h3 {
+    text-align: center;
+}
+
 
   
+/* Styles for the Hours of Operation section */
+section h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #c78c06;
+}
+
+/* Styles for the Location section */
+iframe {
+    width: 100%;
+    border: none;
+    height: 400px; /* Adjust height as needed */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Ensure the footer text is not too large */
+footer {
+    font-size: 0.8em;
+}
